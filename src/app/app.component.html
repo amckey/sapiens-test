@@ -3,21 +3,21 @@
   <ng-container *ngFor="let item of headerItems">
     <div class="toolbar-logo" *ngIf="item.logo">
       <a>
-        <h1 (click)="passTitle(item)">{{item.name}}</h1>
+        <h1 (click)="simulateAction(item)">{{item.name}}</h1>
       </a>
     </div>
   </ng-container>
 
   <ng-container *ngFor="let item of headerItems">
     <a class="toolbar-section" *ngIf="item.section">
-      <h4 (click)="passTitle(item)">{{item.name}}</h4>
+      <h4 (click)="simulateAction(item)">{{item.name}}</h4>
     </a>
   </ng-container>
 
   <ng-container *ngFor="let item of headerItems">
     <div class="toolbar-button" *ngIf="item.button">
       <a>
-        <h3 (click)="passTitle(item)">{{item.name}}</h3>
+        <h3 (click)="simulateAction(item)">{{item.name}}</h3>
       </a>
     </div>
   </ng-container>

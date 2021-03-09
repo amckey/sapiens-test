@@ -10,8 +10,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  title = '';
-
   headerItems = [
     {
       logo: true,
@@ -39,8 +37,8 @@ export class AppComponent {
     },
   ]
 
-  passTitle(title: any): void {
-    this.title = title.name;
-    console.log(this.title);
+  simulateAction(title: any): void {
+    let name = title.name;
+    console.log(`"${name}" has been pressed`);
   }
 }
