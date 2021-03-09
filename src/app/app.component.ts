@@ -38,7 +38,6 @@ export class AppComponent {
   ]
 
   simulateAction(title: any): void {
-    let name = title.name;
-    console.log(`"${name}" has been pressed`);
+    console.log(`"${title.name}" has been pressed`);
   }
 }
