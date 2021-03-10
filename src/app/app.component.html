@@ -1,27 +1,13 @@
-<div class="toolbar" role="banner">
+<app-header></app-header>
 
-  <ng-container *ngFor="let item of headerItems">
-    <div class="toolbar-logo" *ngIf="item.logo">
-      <a>
-        <h1 (click)="simulateAction(item)">{{item.name}}</h1>
-      </a>
-    </div>
-  </ng-container>
+<mat-tab-group animationDuration="0ms" class="mat-tab">
+  <mat-tab label="My homepage"></mat-tab>
+  <mat-tab label="My details"></mat-tab>
+  <mat-tab label="How to claim"></mat-tab>
+</mat-tab-group>
 
-  <ng-container *ngFor="let item of headerItems">
-    <a class="toolbar-section" *ngIf="item.section">
-      <h4 (click)="simulateAction(item)">{{item.name}}</h4>
-    </a>
-  </ng-container>
-
-  <ng-container *ngFor="let item of headerItems">
-    <div class="toolbar-button" *ngIf="item.button">
-      <a>
-        <h3 (click)="simulateAction(item)">{{item.name}}</h3>
-      </a>
-    </div>
-  </ng-container>
-
+<div>
+  <h1 class="content">Change your car insurance policy</h1>
 </div>
 
-
+<app-footer></app-footer>

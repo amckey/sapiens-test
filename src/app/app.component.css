@@ -24,7 +24,13 @@ p {
   flex: 1;
 }
 
-.toolbar {
+.mat-tab {
+  padding-top: 3.73rem;
+  padding-left: 160px;
+  background-color: rgba(240, 240, 240, 0.959);
+}
+
+.toolbar-header {
   position: absolute;
   top: 0;
   left: 0;
@@ -59,6 +65,19 @@ p {
   width: 230px;
 }
 
+.toolbar-footer {
+  position: absolute;
+  margin-top: 500px;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color:#ffda00;
+  color: #0054a2;
+  font-weight: 600;
+}
+
 .toolbar #twitter-logo {
   height: 40px;
   margin: 0 16px;
@@ -66,11 +85,9 @@ p {
 
 .content {
   display: flex;
-  margin: 82px auto 32px;
-  padding: 0 16px;
-  max-width: 960px;
-  flex-direction: column;
-  align-items: center;
+  padding: 50px 195px;
+  font-size: 25pt;
+  opacity: 0.8;
 }
 
 svg.material-icons {
@@ -225,10 +242,13 @@ a:hover {
 }
 
 footer {
-  margin-top: 8px;
-  display: flex;
-  align-items: center;
-  line-height: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+  background-color: grey;
 }
 
 footer a {

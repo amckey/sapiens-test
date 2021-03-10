@@ -1,0 +1,9 @@
+<footer class="footer">
+
+  <ng-container *ngFor="let item of footerItems">
+    <a class="footer-section">
+      <h4 (click)="simulateAction(item)">{{item.name}}</h4>
+    </a>
+  </ng-container>
+
+</footer>
