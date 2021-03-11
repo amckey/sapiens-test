@@ -11,10 +11,9 @@ import { InsuranceComponentComponent } from './insurance-component/insurance-com
 import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
 import { ReminderComponent } from './reminder/reminder.component';
-import { MatDatepickerModule } from '@angular/material/datepicker';
-import { DatepickerComponent } from './datepicker/datepicker.component';
-import {MatFormFieldModule} from '@angular/material/form-field';
-import { OptionsComponent } from './options/options.component';
+import { MatDatepickerModule } from '@angular/material/datepicker'; 
+import { OptionsComponent } from './options/options.component'
+import {MatGridListModule} from '@angular/material/grid-list';
 
 
 
@@ -25,8 +24,7 @@ import { OptionsComponent } from './options/options.component';
     FooterComponent,
     InsuranceComponentComponent,
     ReminderComponent,
-    DatepickerComponent,
-    OptionsComponent
+    OptionsComponent,
   ],
   imports: [
     BrowserModule,
@@ -36,7 +34,7 @@ import { OptionsComponent } from './options/options.component';
     MatCardModule,
     MatDividerModule,
     MatDatepickerModule,
-    MatFormFieldModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

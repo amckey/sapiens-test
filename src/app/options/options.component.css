@@ -1,6 +1,5 @@
 .example-card {
-    max-width: 400px;
-    margin-left: 195px;
+    
   }
   
   .example-header {
@@ -11,3 +10,6 @@
     background-size: cover;
   }
   
+  h2 {
+      padding-left: 195px;
+  }
