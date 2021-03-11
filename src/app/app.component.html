@@ -1,13 +1,24 @@
-<app-header></app-header>
+<header>
 
-<mat-tab-group animationDuration="0ms" class="mat-tab">
-  <mat-tab label="My homepage"></mat-tab>
-  <mat-tab label="My details"></mat-tab>
-  <mat-tab label="How to claim"></mat-tab>
-</mat-tab-group>
+    <app-header></app-header>
+    <mat-tab-group animationDuration="0ms" class="mat-tab">
+        <mat-tab label="My homepage"></mat-tab>
+        <mat-tab label="My details"></mat-tab>
+        <mat-tab label="How to claim"></mat-tab>
+    </mat-tab-group>
 
-<div>
-  <h1 class="content">Change your car insurance policy</h1>
-</div>
+</header>
 
-<app-footer></app-footer>
+<body>
+
+    <div>
+        <h1 class="content">Change your car insurance policy</h1>
+    </div>
+
+    <app-insurance-component></app-insurance-component>
+    
+</body>
+
+<footer>
+    <app-footer></app-footer>
+</footer>

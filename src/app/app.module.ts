@@ -8,6 +8,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { InsuranceComponentComponent } from './insurance-component/insurance-component.component';
+import { MatCardModule } from '@angular/material/card';
+
 
 
 @NgModule({
@@ -22,6 +24,7 @@ import { InsuranceComponentComponent } from './insurance-component/insurance-com
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTabsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
