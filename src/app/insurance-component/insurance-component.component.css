@@ -1,7 +1,14 @@
+.divider {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
 .example-card {
     margin-left: 195px;
-    max-width: 1000px;
+    width: 58%;
     position: relative;
+    background-color: rgb(247, 247, 247);
   }
   
   .example-header-image {

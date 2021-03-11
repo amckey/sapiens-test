@@ -9,15 +9,20 @@
 
 </header>
 
-<body>
+<div class="body">
 
-    <div>
-        <h1 class="content">Change your car insurance policy</h1>
-    </div>
-
+    <h1 class="content">Change your car insurance policy</h1>
     <app-insurance-component></app-insurance-component>
-    
-</body>
+    <h3 class="content">Making changes to your policy</h3>
+    <div class="divider">
+        <mat-divider></mat-divider>
+    </div>
+    <app-reminder></app-reminder>
+    <h4>What change would you like to make?</h4>
+    <app-options></app-options>
+    <h4>When would you like this change to start? (DD/MM/YYYY)</h4>
+    <p>Changes starting today will be effective immediately. Future changes will be<br>effective from 00:00 on the date you.</p>
+</div>
 
 <footer>
     <app-footer></app-footer>

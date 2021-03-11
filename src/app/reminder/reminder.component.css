@@ -1,0 +1,33 @@
+.divider {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    position: relative;
+  }
+  
+  .example-card {
+    margin-top: 50px;
+    margin-left: 195px;
+    width: 58%;
+    position: relative;
+    background-color: rgb(247, 247, 247);
+    }
+    
+    .example-header-image {
+      background-image: url('https://cdn3.iconfinder.com/data/icons/bold-blue-glyphs-free-samples/32/Info_Circle_Symbol_Information_Letter-512.png');
+      background-size: cover;
+      width: 40px;
+      height: 40px;
+    }
+    
+    .example-card-content {
+      display: flex;
+    }
+  
+    .header-text {
+        padding-top: 10px;
+    }
+
+  p {
+    padding-left: 72px;  
+    padding-right: 12rem;
+  }
