@@ -11,9 +11,7 @@ export class OptionsComponent implements OnInit {
       {
         highlightedWord: true,
         title: 'Change car details and usage',
-        body1: 'Insure a new car or change car details e.g.',
-        highWord: 'business use ',
-        body2: 'mileage or registration number.'
+        body: 'Insure a new car or change car details e.g. <b>business use</b> mileage or registration number.',
       },
       {
         highlightedWord: false,
@@ -23,7 +21,7 @@ export class OptionsComponent implements OnInit {
       {
         highlightedWord: false,
         title: 'Add driver',
-        body: 'add a new drivet (we can`t insure driver under 21 at start of your poolicy).',
+        body: "Add a new driver (we can't insure driver under 21 at start of your poolicy).",
       },
       {
         highlightedWord: false,
@@ -37,12 +35,15 @@ export class OptionsComponent implements OnInit {
       },
       {
         highlightedWord: false,
-        title: 'Changer payment details',
-        body: 'Changer derict debit, credit/debit card, PayPal or Amazon pay details that we store for you.',
+        title: 'Change payment details',
+        body: 'Change direct debit, credit/debit card, PayPal or Amazon pay details that we store for you.',
       }
     ]
 
-  constructor() { }
+
+  constructor() { 
+  }
+
 
   ngOnInit(): void {
   }

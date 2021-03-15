@@ -13,7 +13,9 @@ import { MatDividerModule } from '@angular/material/divider';
 import { ReminderComponent } from './reminder/reminder.component';
 import { MatDatepickerModule } from '@angular/material/datepicker'; 
 import { OptionsComponent } from './options/options.component'
-import {MatGridListModule} from '@angular/material/grid-list';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatRadioModule } from '@angular/material/radio';
+
 
 
 
@@ -34,7 +36,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatCardModule,
     MatDividerModule,
     MatDatepickerModule,
-    MatGridListModule
+    MatGridListModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -14,7 +14,7 @@ h3 {
 } 
 h4 {
     font-size: 14pt !important;
-    font-weight: 400;
+    font-weight: 500;
     padding-left: 195px;
     padding-top: 35px;
     color:rgb(68, 68, 68)
@@ -26,7 +26,7 @@ h6 {
 p {
   margin: 0;
   padding-left: 195px;
-  font-size: 11pt;
+  font-size: 12pt;
   color:rgb(68, 68, 68)
 
 }

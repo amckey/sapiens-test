@@ -1,12 +1,12 @@
-
-<mat-grid-list cols="3" rowHeight="2:1" *ngFor="let item of optionsList" class="example-card">
-    <div *ngIf="item.highlightedWord">
-        <mat-grid-tile>
-            {{item.title}}
-        </mat-grid-tile>
-    </div>
-<div *ngIf="!item.highlightedWord">
-        <mat-grid-tile>
-            {{item.title}}
-        </mat-grid-tile>
+<div class="grid-container">
+    <ul *ngFor="let item of optionsList" class="card-div">
+        <li class="example-card">
+            <div class="card-header">{{item.title}}</div>
+            <div *ngIf="item.highlightedWord" [innerHTML]="item.body" class="card-body">{{item.body}}</div>
+            <div *ngIf="!item.highlightedWord" class="card-body">{{item.body}}</div>
+        </li>
+        <div class="selector">
+            <mat-radio-button color="primary">Shit</mat-radio-button>
+        </div>
+    </ul>
 </div>
