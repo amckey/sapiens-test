@@ -11,10 +11,15 @@ import { InsuranceComponentComponent } from './insurance-component/insurance-com
 import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
 import { ReminderComponent } from './reminder/reminder.component';
-import { MatDatepickerModule } from '@angular/material/datepicker'; 
+import {MatDatepickerModule} from '@angular/material/datepicker';
 import { OptionsComponent } from './options/options.component'
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatRadioModule } from '@angular/material/radio';
+import { FormsModule, ReactiveFormsModule}   from '@angular/forms';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { DatapickerComponent } from './datapicker/datapicker.component';
+
 
 
 
@@ -27,6 +32,7 @@ import { MatRadioModule } from '@angular/material/radio';
     InsuranceComponentComponent,
     ReminderComponent,
     OptionsComponent,
+    DatapickerComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,7 +43,11 @@ import { MatRadioModule } from '@angular/material/radio';
     MatDividerModule,
     MatDatepickerModule,
     MatGridListModule,
-    MatRadioModule
+    MatRadioModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatButtonToggleModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -4,9 +4,9 @@
             <div class="card-header">{{item.title}}</div>
             <div *ngIf="item.highlightedWord" [innerHTML]="item.body" class="card-body">{{item.body}}</div>
             <div *ngIf="!item.highlightedWord" class="card-body">{{item.body}}</div>
+            <div class="selector">
+                <mat-radio-button color="primary" name="shit">Not selected</mat-radio-button>
+            </div>
         </li>
-        <div class="selector">
-            <mat-radio-button color="primary">Shit</mat-radio-button>
-        </div>
-    </ul>
-</div>
+    </ul> 
+</div> 

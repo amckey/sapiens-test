@@ -1,3 +1,22 @@
+:host ::ng-deep .mat-radio-container{
+    height: 30px;
+    width: 30px;
+  }
+  :host ::ng-deep .mat-radio-outer-circle{
+    height: 30px;
+    width: 30px;
+  }
+  :host ::ng-deep .mat-radio-inner-circle{
+    height: 30px;
+    width: 30px;
+  }
+  :host ::ng-deep .mat-radio-button .mat-radio-ripple{
+    height: 60px; 
+    width: 60px;  
+    left: calc(50% - 30px);
+    top: calc(50% - 30px);
+  }
+  
   h2 {
       padding-left: 195px;
   }
@@ -18,11 +37,13 @@
     position: relative;
     border: 1px solid;
     color: gray;
+    overflow: hidden;
+
 }
 
 .selector {
     padding-left: 20px;
-    padding-bottom: 100px;
+    padding-top: 90px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -34,8 +55,8 @@
   
     .card-header {
       max-width: 80%;
+      max-height: 20px;
       padding-top: 30px;
-      padding-bottom: 30px;
       padding-left: 20px;
       font-size: 14pt;
       font-weight: 600;
@@ -44,6 +65,7 @@
 
     .card-body {
       max-width: 80%;
+      padding-top: 15%;
       padding-left: 20px;
       font-size: 12pt;
       word-wrap: break-word;
